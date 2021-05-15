@@ -10,7 +10,9 @@ namespace CSVHelperAndJson
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //ReadCSVWriteCSV.ImplementCSVToJSON();
+            ReadCSV_And_WriteJSON.ImplementCSVToJSON();
+            Console.ReadKey();
         }
     }
 }

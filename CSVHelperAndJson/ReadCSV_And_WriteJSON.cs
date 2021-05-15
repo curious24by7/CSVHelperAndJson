@@ -32,7 +32,7 @@ namespace CSVHelperAndJson
                     Console.WriteLine("\t" + addressData.code);
                     Console.WriteLine("\t" + addressData.state);
                 }
-                Console.WriteLine("*****************************Reading from csv file and write to csv file********************");
+                Console.WriteLine("*****************************Reading from csv file and write to csv file in Json********************");
                 Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
                 using (StreamWriter sw = new StreamWriter(exportFilePath))
                 using (JsonWriter writer = new JsonTextWriter(sw))
